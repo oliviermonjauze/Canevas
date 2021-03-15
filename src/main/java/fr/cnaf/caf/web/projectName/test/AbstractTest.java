@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.squashtest.ta.galaxia.tf.param.service.TFParamService;
+//import org.squashtest.ta.galaxia.tf.param.service.TFParamService;
 import utils.OutilsProjet;
 import utils.QAToolsInstantiation;
 
@@ -55,14 +55,14 @@ public abstract class AbstractTest extends QAToolsInstantiation {
             prop.load(input);
             // Récupération de l'environnement
             environnement = prop.getProperty("environnement");
-            environnement = TFParamService.getInstance().getParam("IT_CUF_environnement", environnement);
+//            environnement = TFParamService.getInstance().getParam("IT_CUF_environnement", environnement);
             LOGGER.info("-----> Environnement utilisé pour ce test : " + environnement);
             // Récupération de l'url
             urlStart = prop.getProperty("url" + environnement);
             LOGGER.info("-----> URL de départ pour cet environnement : " + urlStart);
             // Récupération du navigateur
             navigateur = prop.getProperty("navigateur");
-            navigateur = TFParamService.getInstance().getParam("IT_CUF_navigateur", navigateur);
+//            navigateur = TFParamService.getInstance().getParam("IT_CUF_navigateur", navigateur);
             LOGGER.info("-----> Navigateur utilisé pour ce test : " + navigateur);
         } catch (IOException e) {
             e.printStackTrace();

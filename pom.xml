@@ -74,16 +74,16 @@
             <version>${log4j.version}</version>
         </dependency>
         <!-- IMPORTS SQUASH -->
-        <dependency>
-            <groupId>org.squashtest.ta.galaxia</groupId>
-            <artifactId>tf-param-service</artifactId>
-            <version>1.0.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.squashtest.ta.galaxia</groupId>
-            <artifactId>squash-tf-galaxia-annotations</artifactId>
-            <version>${galaxia.annotation.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.squashtest.ta.galaxia</groupId>-->
+<!--            <artifactId>tf-param-service</artifactId>-->
+<!--            <version>1.0.0-RELEASE</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.squashtest.ta.galaxia</groupId>-->
+<!--            <artifactId>squash-tf-galaxia-annotations</artifactId>-->
+<!--            <version>${galaxia.annotation.version}</version>-->
+<!--        </dependency>-->
         <!-- IMPORTS QA TOOLS -->
         <dependency>
             <groupId>cnaf.autom</groupId>

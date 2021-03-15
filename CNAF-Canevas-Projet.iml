@@ -44,15 +44,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: org.squashtest.ta.galaxia:tf-param-service:1.0.0-RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.squashtest.ta:squash-ta-commons-exploitation:1.14.0-RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.squashtest.ta:squash-ta-framework:1.14.0-RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.squashtest.ta:squash-ta-core-utils:1.14.0-RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.23" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.4" level="project" />
-    <orderEntry type="library" name="Maven: org.squashtest.ta.galaxia:squash-tf-galaxia-annotations:1.0.1-RELEASE" level="project" />
     <orderEntry type="library" name="Maven: cnaf.autom:CNAF-QA-TOOLS:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: ru.yandex.qatools.ashot:ashot:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />

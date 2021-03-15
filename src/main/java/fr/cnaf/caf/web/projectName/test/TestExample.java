@@ -2,7 +2,7 @@ package fr.cnaf.caf.web.projectName.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.squashtest.ta.galaxia.squash.tf.galaxia.annotations.TFMetadata;
+//import org.squashtest.ta.galaxia.squash.tf.galaxia.annotations.TFMetadata;
 
 
 public class TestExample extends AbstractTest {
@@ -17,7 +17,7 @@ public class TestExample extends AbstractTest {
 
 
     @Test
-    @TFMetadata(key = "linked-TC", value = {"TO-BE-COMPLETED"})
+//    @TFMetadata(key = "linked-TC", value = {"TO-BE-COMPLETED"})
     public void run() throws Throwable {
         LOGGER.info("---------- Debut du test ----------");
         LOGGER.info("---------- Etape 1 : démonstration ----------");
